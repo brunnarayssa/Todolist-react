@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 const Todo = () => {
   const [taskList, setTaskList] = useState([
-    "clean the floor", 
-    "blah blah", 
-    "sacar al perro"
+    "Limpiar el piso.", 
+    "Sacar al perro.", 
+    "Responder correos pendientes."
   ]);
   const [inputValue, setInputValue] = useState("");
   const [warning, setWarning] = useState(false);  // Para mostrar advertencia si el campo está vacío
